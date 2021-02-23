@@ -1,5 +1,5 @@
 {
-  "name": "Task-Manager",
+  "name": "task-manager",
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
@@ -13,6 +13,7 @@
     "@sendgrid/mail": "^7.4.2",
     "bcrypt": "^5.0.0",
     "bcryptjs": "^2.4.3",
+    "express": "^4.17.1",
     "jsonwebtoken": "^8.5.1",
     "mongodb": "^3.6.4",
     "mongoose": "^5.11.15",
@@ -21,8 +22,19 @@
     "sharp": "^0.27.1",
     "validator": "^13.5.2"
   },
-  "description": "",
   "devDependencies": {
     "env-cmd": "^10.1.0"
-  }
+  },
+  "directories": {
+    "test": "tests"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rushilkoyani18/Task-Manager.git"
+  },
+  "bugs": {
+    "url": "https://github.com/rushilkoyani18/Task-Manager/issues"
+  },
+  "homepage": "https://github.com/rushilkoyani18/Task-Manager#readme",
+  "description": ""
 }
